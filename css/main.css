@@ -1,13 +1,6 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-
 :root {
-    --main-blue-color:#5267df;
+    --main-blue-color:
+    #5267DF;
     --main-red-color: #fa5959;
     --main-dark-blue-color: #242a45;
     --main-grin-dark-color: #9194a2;
@@ -124,7 +117,7 @@ svg {
 }
 
 .site-links__btn:hover {
-    border: 2px solid #FA5959;
+    border: 2px solid #fa5959;
     color: var(--main-red-color);
     background-color: transparent;
 }
@@ -202,7 +195,7 @@ svg {
 
 .btn-group__btn--grey:hover {
     background-color: transparent;
-    border: 2px solid #5B6074;
+    border: 2px solid #5b6074;
     color: var(--main-dark-blue-color);
     opacity: 0.75;
 }
